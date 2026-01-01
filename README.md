@@ -65,3 +65,16 @@ To run this project locally, follow these steps:
 
    ```
 4. Open your browser and go to the URL shown in the terminal (usually http://localhost:5173) to see the app running.
+
+---
+## What You’ll Learn From This Project
+
+This project is a simple React To-Do List app that helps you practice and understand:
+
+- **React Basics**: Functional components, JSX, and props  
+- **State Management**: Using the `useState` hook to manage input and list data  
+- **Handling Events**: Capturing user input and handling button clicks  
+- **Rendering Lists**: Mapping over arrays to render dynamic lists in the UI  
+- **Basic Styling**: Applying CSS for layout, colors, and interactive elements  
+- **Project Structure**: Organizing React components and assets in a clean folder structure  
+
