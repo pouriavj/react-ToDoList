@@ -53,4 +53,19 @@ To run this project locally, follow these steps:
    ```bash
    git clone <your-repo-url>
    cd <your-repo-folder>
+   ```
+2. **Install dependencies**  
+   ```bash
+   npm install
 
+   ```
+3. **Clone the repository**  
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
+4. **Clone the repository**  
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
