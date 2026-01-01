@@ -32,7 +32,15 @@ This project is ideal for beginners who want to understand **controlled inputs**
 ## 📂 Project Structure
 
 ```text
-src/
-├── App.jsx
-├── index.js
-├── styles.css
+.
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   └── styles.css
+├── src
+│   ├── components
+│   │   └── App.jsx
+│   └── index.jsx
+└── vite.config.js
+```
