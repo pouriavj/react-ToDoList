@@ -59,13 +59,9 @@ To run this project locally, follow these steps:
    npm install
 
    ```
-3. **Clone the repository**  
+3. **Start the development server**  
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   npm run dev
+
    ```
-4. **Clone the repository**  
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
-   ```
+4. Open your browser and go to the URL shown in the terminal (usually http://localhost:5173) to see the app running.
