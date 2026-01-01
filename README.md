@@ -44,3 +44,13 @@ This project is ideal for beginners who want to understand **controlled inputs**
 │   └── index.jsx
 └── vite.config.js
 ```
+---
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**  
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+
