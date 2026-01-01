@@ -28,6 +28,15 @@ This project is ideal for beginners who want to understand **controlled inputs**
 - **JavaScript (ES6)**
 
 ---
+## Screenshot
+
+Here’s what the app looks like:
+
+![To-Do List App Screenshot](./public/screenshot.png)
+
+
+
+---
 
 ## 📂 Project Structure
 
