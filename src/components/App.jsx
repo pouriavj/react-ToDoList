@@ -1,19 +1,24 @@
 import React, { useState } from "react";
+import ToDoItem from "./ToDoItem";
+import InputArea from "./InputArea";
+import { v4 as uuidv4 } from "uuid";
+
 
 function App() {
-  const [inputText, setInputText] = useState("");
   const [items, setItems] = useState([]);
 
-  function handleChange(event) {
-    const newValue = event.target.value;
-    setInputText(newValue);
+  function addItem(inputText) {
+    setItems((prevItems) => [
+      ...prevItems,
+      {
+        id: uuidv4(),
+        text: inputText,
+      },
+    ]);
   }
 
-  function addItem() {
-    setItems(prevItems => {
-      return [...prevItems, inputText];
-    });
-    setInputText("");
+  function deleteItem(id) {
+    setItems((prevItems) => prevItems.filter((item) => item.id !== id));
   }
 
   return (
@@ -21,16 +26,16 @@ function App() {
       <div className="heading">
         <h1>To-Do List</h1>
       </div>
-      <div className="form">
-        <input onChange={handleChange} type="text" value={inputText} />
-        <button onClick={addItem}>
-          <span>Add</span>
-        </button>
-      </div>
+      <InputArea onAdd={addItem} />
       <div>
         <ul>
-          {items.map(todoItem => (
-            <li>{todoItem}</li>
+          {items.map((todoItem) => (
+            <ToDoItem
+              key={todoItem.id}
+              id={todoItem.id}
+              text={todoItem.text}
+              onChecked={deleteItem}
+            />
           ))}
         </ul>
       </div>
