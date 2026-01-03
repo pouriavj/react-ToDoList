@@ -32,7 +32,7 @@ This project is ideal for beginners who want to understand **controlled inputs**
 
 Here’s what the app looks like:
 
-![To-Do List App Screenshot](./public/Screenshot.jpg)
+![To-Do List App Screenshot](./public/To-Do-List.gif)
 
 
 
