@@ -35,7 +35,7 @@ This project is ideal for beginners who want to practice **controlled inputs**, 
 
 ---
 
-## 📸 Screenshot / Demo
+## 📸 Demo
 
 Here’s what the app looks like:
 
