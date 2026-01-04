@@ -4,7 +4,7 @@
 ![Hooks](https://img.shields.io/badge/Hooks-useState-yellow)
 ![Vite](https://img.shields.io/badge/Build-Vite-purple)
 ![CSS](https://img.shields.io/badge/Styling-CSS-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A simple yet well-structured **To-Do List application** built with **React functional components** and the `useState` hook.  
 This project is ideal for beginners who want to practice **controlled inputs**, **state lifting**, and **clean component architecture** in React.
