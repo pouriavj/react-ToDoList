@@ -2,11 +2,12 @@
 
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Hooks](https://img.shields.io/badge/Hooks-useState-yellow)
+![Vite](https://img.shields.io/badge/Build-Vite-purple)
 ![CSS](https://img.shields.io/badge/Styling-CSS-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-
-A simple and clean **To-Do List application** built with **React functional components** and the `useState` hook.  
-This project is ideal for beginners who want to understand **controlled inputs**, **state management**, and **dynamic list rendering** in React.
+A simple yet well-structured **To-Do List application** built with **React functional components** and the `useState` hook.  
+This project is ideal for beginners who want to practice **controlled inputs**, **state lifting**, and **clean component architecture** in React.
 
 ---
 
@@ -14,9 +15,12 @@ This project is ideal for beginners who want to understand **controlled inputs**
 
 - Add new to-do items
 - Controlled input field
+- Unique IDs for each item using `uuid`
 - Dynamic rendering of list items
-- Simple and playful UI using pure CSS
-- Beginner-friendly React structure
+- Click-to-complete behavior
+- **Click an item to apply a line-through, then automatically delete it after a short delay**
+- Clean and beginner-friendly UI using pure CSS
+- Well-organized component-based structure
 
 ---
 
@@ -24,17 +28,18 @@ This project is ideal for beginners who want to understand **controlled inputs**
 
 - **React** (Functional Components)
 - **React Hooks** (`useState`)
+- **Vite** (Fast development environment)
+- **UUID** (Unique item identifiers)
 - **CSS** (custom styling)
 - **JavaScript (ES6)**
 
 ---
-## Screenshot
+
+## 📸 Screenshot / Demo
 
 Here’s what the app looks like:
 
-![To-Do List App Screenshot](./public/To-Do-List.gif)
-
-
+![To-Do List App Demo](./public/To-Do-List.gif)
 
 ---
 
@@ -43,15 +48,20 @@ Here’s what the app looks like:
 ```text
 .
 ├── index.html
-├── package-lock.json
 ├── package.json
+├── package-lock.json
+├── vite.config.js
+├── README.md
 ├── public
-│   └── styles.css
-├── src
-│   ├── components
-│   │   └── App.jsx
-│   └── index.jsx
-└── vite.config.js
+│   ├── styles.css
+│   └── To-Do-List.gif
+└── src
+    ├── index.jsx
+    └── components
+        ├── App.jsx
+        ├── InputArea.jsx
+        └── ToDoItem.jsx
+
 ```
 ---
 ## Getting Started
