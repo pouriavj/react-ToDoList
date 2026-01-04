@@ -106,8 +106,7 @@ By building this project, you will practice and understand:
 
 > [!NOTE]
 > The `map()` method is used to render the list of to-do items from the state array, ensuring each item is displayed dynamically based on current data.
-
-> [!NOTE]
+> 
 > The `filter()` method is used to remove items from the state by creating a new array without the selected item, preserving immutability and triggering a proper re-render.
 
 
