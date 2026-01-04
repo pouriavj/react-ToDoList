@@ -86,14 +86,26 @@ To run this project locally, follow these steps:
 4. Open your browser and go to the URL shown in the terminal (http://localhost:5173) to see the app running.
 
 ---
-## What You’ll Learn From This Project
+## 📚 What You’ll Learn From This Project
 
-This project is a simple React To-Do List app that helps you practice and understand:
+By building this project, you will practice and understand:
 
-- **React Basics**: Functional components, JSX, and props  
-- **State Management**: Using the `useState` hook to manage input and list data  
-- **Handling Events**: Capturing user input and handling button clicks  
-- **Rendering Lists**: Mapping over arrays to render dynamic lists in the UI  
-- **Basic Styling**: Applying CSS for layout, colors, and interactive elements  
-- **Project Structure**: Organizing React components and assets in a clean folder structure  
+- **React Fundamentals**: Writing functional components and using JSX effectively
+- **State Management**: Managing local component state with the `useState` hook
+- **Lifting State Up**: Keeping shared state in a parent component (`App`)
+- **Controlled Components**: Handling form inputs using React state
+- **Event Handling**: Responding to user interactions like clicks and input changes
+- **Rendering Lists**: Dynamically rendering items using `.map()` with unique keys
+- **Component Communication**: Passing data and callback functions via props
+- **UI Feedback Patterns**: Showing a temporary visual state (line-through) before removing data
+- **Timed Actions**: Using `setTimeout` to delay logic execution for better UX
+- **Project Organization**: Structuring a React + Vite project in a clean and scalable way
+
+---
+## ✅ Notes
+
+> [!NOTE]
+> The `map()` method is used to render the list of to-do items from the state array, ensuring each item is displayed dynamically based on current data.
+> The `filter()` method is used to remove items from the state by creating a new array without the selected item, preserving immutability and triggering a proper re-render.
+
 
