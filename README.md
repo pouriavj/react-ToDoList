@@ -17,8 +17,7 @@ This project is ideal for beginners who want to practice **controlled inputs**, 
 - Controlled input field
 - Unique IDs for each item using `uuid`
 - Dynamic rendering of list items
-- Click-to-complete behavior
-- **Click an item to apply a line-through, then automatically delete it after a short delay**
+- Click an item to apply a line-through, then automatically delete it after a short delay
 - Clean and beginner-friendly UI using pure CSS
 - Well-organized component-based structure
 
